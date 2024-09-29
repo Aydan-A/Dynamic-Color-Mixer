@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Color Design</title>
+    <link rel="stylesheet" href="colordesign.css" />
+    <script src="colordesign.js" defer></script>
+  </head>
+  <body>
+    <div class="color-container">
+      <h2>Select the colors you want to mix</h2>
+      <div class="color-palettes">
+      <div class="final-color palette">Final Color
+        <input type="text" placeholder="Final Color Code" class="finalcolorCode" />
+      </div>
+      <div class="palette">
+        <label for="color1" class="numberofColor">Color 1</label>
+        <input type="color" id="color1" placeholder="+Select the color" class="color"/>
+        <input type="text" placeholder="Enter the Hex Code" class="colorCode"/>
+        <span class="delete">Delete</span>
+      </div>
+      <div class="palette">
+        <label for="color1" class="numberofColor">Color 2</label>
+        <input type="color" id="color1" placeholder="+Select the color" class="color"/>
+        <input type="text" placeholder="Enter the Hex Code" class="colorCode" />
+        <span class="delete">Delete</span>
+      </div>
+    </div>
+    </div>
+    <div class="buttons">
+        <button type="button" class="add-more-palette">Add more colors</button>
+        <button type="button" class="submit">Mix the colors</button>
+      </div>
+  </body>
+</html>
