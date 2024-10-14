@@ -19,4 +19,4 @@ A dynamic color mixer built using HTML, CSS, and JavaScript. This application al
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/dynamic-color-mixer.git
+   git clone https://github.com/Aydan-A/Dynamic-Color-Mixer.git
